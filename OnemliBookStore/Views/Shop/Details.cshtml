@@ -1,0 +1,43 @@
+﻿@model BookDetailDto
+
+<div class="card mb-3">
+    <div class="card-body">
+        <div class="row no-gutters">
+            <div class="col-md-3">
+                <img style="width: 180px; height: 280px;" src="~/img/@Model.Book.ImageUrl">
+            </div>
+            <div class="col-md-9">
+
+                <h1 class="mb-3">@Model.Book.Name</h1><hr />
+
+                @foreach (var item in Model.Categories)
+                {
+                    <a class="btn btn-link p-0 mb-3">@item.Name</a>
+                }
+                <a class="btn btn-link p-0 mb-3">Telefon</a>
+                <div class="mb-3">
+                    <h4 class="text-primary mb-3">
+                        $ @Model.Book.Price 
+                    </h4>
+
+                    <form asp-controller="cart" asp-action="addToCart" method="post" class="form-inline">
+                        <input type="hidden" name="bookId" value="@Model.Book.BookId" />
+                        <div class="input-group mb-3">
+                            <input type="number" name="quantity" value="1" class="form-control" min="1" step="1" style="width: 100px" />
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary">
+                                    Add To Cart<i class="fas fa-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="p-3 text-capitalize">@Model.Book.Description </p>
+            </div>
+        </div>
+    </div>
+</div>

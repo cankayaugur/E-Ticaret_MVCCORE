@@ -1,0 +1,15 @@
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\bin\Debug\netcoreapp3.1\OnemliBookStore.Dal.deps.json
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\bin\Debug\netcoreapp3.1\OnemliBookStore.Dal.runtimeconfig.json
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\bin\Debug\netcoreapp3.1\OnemliBookStore.Dal.runtimeconfig.dev.json
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\bin\Debug\netcoreapp3.1\OnemliBookStore.Dal.dll
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\bin\Debug\netcoreapp3.1\OnemliBookStore.Dal.pdb
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\bin\Debug\netcoreapp3.1\OnemliBookStore.Entity.dll
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\bin\Debug\netcoreapp3.1\OnemliBookStore.Entity.pdb
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\obj\Debug\netcoreapp3.1\OnemliBookStore.Dal.csprojAssemblyReference.cache
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\obj\Debug\netcoreapp3.1\OnemliBookStore.Dal.AssemblyInfoInputs.cache
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\obj\Debug\netcoreapp3.1\OnemliBookStore.Dal.AssemblyInfo.cs
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\obj\Debug\netcoreapp3.1\OnemliBookStore.Dal.csproj.CoreCompileInputs.cache
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\obj\Debug\netcoreapp3.1\OnemliBookStore.Dal.csproj.CopyComplete
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\obj\Debug\netcoreapp3.1\OnemliBookStore.Dal.dll
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\obj\Debug\netcoreapp3.1\OnemliBookStore.Dal.pdb
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Dal\obj\Debug\netcoreapp3.1\OnemliBookStore.Dal.genruntimeconfig.cache

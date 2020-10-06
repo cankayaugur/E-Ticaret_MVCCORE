@@ -1,0 +1,58 @@
+<div class="navbar bg-info navbar-dark navbar-expand-sm">
+    <div class="container">
+        <a href="/" class="navbar-brand">OnemliBookStore</a>
+        <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item">
+                <a href="/Books" class="nav-link">Books</a>
+            </li>
+            @if (User.Identity.IsAuthenticated)
+            {
+
+                <li class="nav-item">
+                    <a href="/cart" class="nav-link">Cart</a>
+                </li>
+
+                @if (User.IsInRole("Admin"))
+                {
+                    <li class="nav-item">
+                        <a href="/admin/books" class="nav-link">Admin Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/categories" class="nav-link">Admin Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/role/list" class="nav-link">Roles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/user/list" class="nav-link">Users</a>
+                    </li>
+                }
+            }
+
+        </ul>
+
+
+        <ul class="navbar-nav ml-auto">
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li class="nav-item">
+                    <a class="nav-link">@User.Identity.Name</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/account/logout" class="nav-link">Logout</a>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item">
+                    <a href="/account/login" class="nav-link">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/account/register" class="nav-link">Register</a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

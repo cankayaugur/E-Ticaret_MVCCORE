@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200922123628_AddingIdentity.cs" />
+    <Compile Remove="Migrations\20200922123628_AddingIdentity.Designer.cs" />
+    <Compile Remove="Migrations\20200922172037_AddingIdentity.cs" />
+    <Compile Remove="Migrations\20200922172037_AddingIdentity.Designer.cs" />
+    <Compile Remove="Migrations\20201002090414_AddingOrderItems.cs" />
+    <Compile Remove="Migrations\20201002090414_AddingOrderItems.Designer.cs" />
+    <Compile Remove="Migrations\20201002090600_AddingOrderItem.cs" />
+    <Compile Remove="Migrations\20201002090600_AddingOrderItem.Designer.cs" />
+    <Compile Remove="Migrations\20201002111952_test.cs" />
+    <Compile Remove="Migrations\20201002111952_test.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnemliBookStore.Entity\OnemliBookStore.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

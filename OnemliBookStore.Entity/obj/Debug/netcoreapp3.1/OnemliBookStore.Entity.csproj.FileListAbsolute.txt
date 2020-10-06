@@ -1,0 +1,9 @@
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Entity\bin\Debug\netcoreapp3.1\OnemliBookStore.Entity.deps.json
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Entity\bin\Debug\netcoreapp3.1\OnemliBookStore.Entity.dll
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Entity\bin\Debug\netcoreapp3.1\OnemliBookStore.Entity.pdb
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Entity\obj\Debug\netcoreapp3.1\OnemliBookStore.Entity.AssemblyInfoInputs.cache
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Entity\obj\Debug\netcoreapp3.1\OnemliBookStore.Entity.AssemblyInfo.cs
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Entity\obj\Debug\netcoreapp3.1\OnemliBookStore.Entity.dll
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Entity\obj\Debug\netcoreapp3.1\OnemliBookStore.Entity.pdb
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Entity\obj\Debug\netcoreapp3.1\OnemliBookStore.Entity.csprojAssemblyReference.cache
+C:\Users\Ugurcan\Desktop\Workspace\OnemliBookStore.Entity\obj\Debug\netcoreapp3.1\OnemliBookStore.Entity.csproj.CoreCompileInputs.cache

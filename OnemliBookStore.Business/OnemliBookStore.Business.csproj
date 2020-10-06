@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnemliBookStore.Dal\OnemliBookStore.Dal.csproj" />
+    <ProjectReference Include="..\OnemliBookStore.Entity\OnemliBookStore.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
