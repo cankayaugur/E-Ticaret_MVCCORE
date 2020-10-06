@@ -1,5 +1,5 @@
 Book Store e-commerce
-Proje özeti: e-kitap web sitesi kullanıcı register olur kitapları arar, seçer sepete ekler. Admin sayfalarında CRUD işlemleri ve kullanıcı bilgilerin düzenlenmesi, rollere göre otorize işlemleri gerçekleşir. 
+Proje özeti: e-kitap web sitesi kullanıcı register ve login olur kitapları arar, seçer sepete ekler çıkarır. Admin sayfalarında ise CRUD işlemleri ve kullanıcı bilgilerin düzenlenmesi, rollere göre otorize işlemleri gerçekleşir. Bu sayfaları normal kullanıcılar göremez.
 Projede kullandığım teknolojiler ve yaklaşımlar;
 - .Net core MVC pattern
 - Entity Framework (Code First),
